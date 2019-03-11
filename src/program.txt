@@ -1,0 +1,27 @@
+/* Factorial Calculator */
+program
+decs [
+	integer fact /* factorial result */
+	double x /* intermediate factorial value */
+	integer n /* input factorial term */
+]
+
+begin
+	print "Enter the factorial term:"
+	input n
+    x = 111.78
+    fact = 1
+    while ( n :eq: x )
+    [
+        x = x + 1
+        fact = fact * x
+        print n
+    ]
+
+    if ( fact :eq: 1 )
+    [
+        fact = fact * 1000
+        print fact
+    ]
+    print fact
+end

@@ -1,0 +1,22 @@
+program
+decs
+[
+	integer fact /* factorial result */
+	integer x /* intermediate factorial value */
+	integer n /* input factorial term */
+]
+begin
+	n = 5
+	x = 1
+	while ( n :ge: x )
+	[
+		x = x + 1
+		print n
+		
+			
+	]
+	
+	print "::: The value of fact is :::"
+	print fact
+	
+end
